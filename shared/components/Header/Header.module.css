@@ -1,0 +1,41 @@
+.wrapper {
+  padding: 0 2rem;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #101000;
+}
+
+.menuElements {
+  width: 40%;
+  max-width: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menuElements p {
+  margin: 0;
+}
+
+.menuElements p:nth-child(1) {
+  color: #f0f0f0;
+}
+.menuElements p:nth-child(2) {
+  color: #818182;
+}
+
+.menuButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #101000;
+  border: none;
+  border-radius: 5px;
+  width: 80px;
+  height: 50px;
+
+  cursor: pointer;
+}
